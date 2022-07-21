@@ -349,24 +349,6 @@ a:visited {
   display: flex;
 }
 
-/* .sexAreaLb {
-  width: 50%;
-  height: 48px;
-  overflow: hidden;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid #d6deeb;
-  z-index: 1;
-  background-color: white;
-} */
-
-.sexAreaLb:first-of-type {
-  border-top-left-radius: 4px;
-  border-bottom-left-radius: 4px;
-}
-
 .csHov {
   border-color: rgb(158, 167, 173);
   z-index: 2;
@@ -401,6 +383,10 @@ a:visited {
   border: 1px solid rgb(158, 167, 173);
   z-index: 2;
   background-color: rgb(219, 239, 255);
+}
+.sexAreaLb:first-of-type {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
 }
 
 .sexAreaLb input[type="radio"] {
@@ -487,13 +473,13 @@ a:visited {
 }
 
 /* 체크되었을 때 
-.agreeSvg:checked {
-  width: 18px;
-  height: 18px;
-  vertical-align: middle;
-  fill: rgb(30, 140, 230);
-}
-*/
+  .agreeSvg:checked {
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    fill: rgb(30, 140, 230);
+  }
+  */
 
 .agreeSpan {
   margin-left: 8px;
