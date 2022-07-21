@@ -59,9 +59,3 @@ $(".agrAll").click(function () {
     tw = !tw;
   }
 });
-
-$(".sexAreaLb").click(function () {
-  $(this).addClass("csHov");
-  $(this).removeClass("sexAreaLb");
-});
-// 둘(남/여) 중 하나만 선택하려면 어떻게 해야 할까?
