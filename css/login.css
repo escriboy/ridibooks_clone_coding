@@ -349,7 +349,7 @@ a:visited {
   display: flex;
 }
 
-.sexAreaLb {
+/* .sexAreaLb {
   width: 50%;
   height: 48px;
   overflow: hidden;
@@ -360,14 +360,21 @@ a:visited {
   border: 1px solid #d6deeb;
   z-index: 1;
   background-color: white;
-}
+} */
 
 .sexAreaLb:first-of-type {
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
 }
 
-.choosingSex {
+.csHov {
+  border-color: rgb(158, 167, 173);
+  z-index: 2;
+  box-shadow: rgb(115 128 150 / 20%);
+}
+
+#choosingSex,
+#choosingSex1 {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -376,12 +383,6 @@ a:visited {
   overflow: hidden;
   border: 0;
   clip: rect(0, 0, 0, 0);
-}
-
-.csHov {
-  border-color: rgb(158, 167, 173);
-  z-index: 2;
-  box-shadow: rgb(115 128 150 / 20%);
 }
 
 .csHov:first-of-type {
@@ -402,7 +403,30 @@ a:visited {
   background-color: rgb(219, 239, 255);
 }
 
+.sexAreaLb input[type="radio"] {
+  display: none;
+}
+.sexAreaLb input[type="radio"] + span {
+  width: 82px;
+  height: 48px;
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #d6deeb;
+  z-index: 1;
+  background-color: white;
+}
+.sexAreaLb input[type="radio"]:checked + span {
+  background-color: #ebf6ff;
+  border-color: rgb(158, 167, 173);
+  z-index: 2;
+  box-shadow: rgb(115 128 150 / 20%);
+}
+
 [type="checkbox"],
+[type="radio"],
 [type="ratio"] {
   box-sizing: border-box;
 }
