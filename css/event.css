@@ -347,6 +347,10 @@ body,
   color: rgb(0, 151, 251);
 }
 
+.logoTextA {
+  margin-right: auto;
+}
+
 .headerIconArea {
   display: inline-block;
   width: 40px;
@@ -714,6 +718,7 @@ body,
   padding: 0 3px;
   border-radius: 6px;
   float: left;
+  cursor: pointer;
 }
 
 /* 2-way slide Area ENd */
@@ -1673,6 +1678,7 @@ body,
   padding: 0 3px;
   border-radius: 6px;
   float: left;
+  cursor: pointer;
 }
 
 .left_control2 {

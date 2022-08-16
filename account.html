@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/account.css" />
+
+    <title>회원가입 - 미디</title>
+  </head>
+  <body>
+    <!-- main Div Start -->
+    <div id="__next">
+      <div class="mainDiv01">
+        <header class="mainHeader">
+          <h1 class="mainHeadH">
+            <a href="index.html" class="mainHeadA">MIDI</a>
+          </h1>
+        </header>
+        <section class="inputSect">
+          <form class="inputForm">
+            <div class="inputTxtArea01">
+              <div class="inputTxtArea02 txtIdArea">
+                <span class="txtSpan1">아이디</span>
+                <!-- <span class="txtSpan2">5~20자 영문, 숫자 입력</span> -->
+                <input
+                  type="text"
+                  autocomplete="off"
+                  autocorrect="off"
+                  autocapitalize="none"
+                  placeholder=""
+                  title="아이디 입력"
+                  class="idInput"
+                />
+              </div>
+            </div>
+            <div class="warningTxtDiv idWarning">
+              <svg
+                viewBox="0 0 49 49"
+                xmlns="http://www.w3.org/2000/svg"
+                class="warningSvg idWarning"
+              >
+                <path
+                  d="M24.1.9C10.9.9.1 11.7.1 24.9s10.8 24 24 24 24-10.8 24-24-10.8-24-24-24zm0 40.5c-2.1 0-3.8-1.7-3.8-3.8 0-2.1 1.7-3.8 3.8-3.8 2.1 0 3.8 1.7 3.8 3.8 0 2-1.7 3.8-3.8 3.8zm3.8-16.5c0 2.1-1.7 3.8-3.8 3.8-2.1 0-3.8-1.7-3.8-3.8V12.3c0-2.1 1.7-3.8 3.8-3.8 2.1 0 3.8 1.7 3.8 3.8v12.6z"
+                ></path>
+              </svg>
+              <p class="warningTxt">아이디를 입력해주세요</p>
+            </div>
+            <div class="inputTxtArea01">
+              <div class="inputTxtArea02 txtPwArea">
+                <span class="txtSpan1">비밀번호</span>
+                <!-- <span class="txtSpan2">5~20자 영문, 숫자 입력</span> -->
+                <input
+                  type="password"
+                  autocomplete="off"
+                  autocorrect="off"
+                  autocapitalize="none"
+                  placeholder=""
+                  title="비밀번호 입력"
+                  class="idInput"
+                />
+              </div>
+              <div class="inputTxtArea02 pwDbCheck">
+                <span class="txtSpan3">비밀번호 확인</span>
+                <!-- <span class="txtSpan2">5~20자 영문, 숫자 입력</span> -->
+                <input
+                  type="password"
+                  autocomplete="off"
+                  autocorrect="off"
+                  autocapitalize="none"
+                  placeholder=""
+                  title="비밀번호 확인"
+                  class="idInput"
+                />
+              </div>
+            </div>
+            <div class="warningTxtDiv">
+              <svg
+                viewBox="0 0 49 49"
+                xmlns="http://www.w3.org/2000/svg"
+                class="warningSvg pwWarning"
+              >
+                <path
+                  d="M24.1.9C10.9.9.1 11.7.1 24.9s10.8 24 24 24 24-10.8 24-24-10.8-24-24-24zm0 40.5c-2.1 0-3.8-1.7-3.8-3.8 0-2.1 1.7-3.8 3.8-3.8 2.1 0 3.8 1.7 3.8 3.8 0 2-1.7 3.8-3.8 3.8zm3.8-16.5c0 2.1-1.7 3.8-3.8 3.8-2.1 0-3.8-1.7-3.8-3.8V12.3c0-2.1 1.7-3.8 3.8-3.8 2.1 0 3.8 1.7 3.8 3.8v12.6z"
+                ></path>
+              </svg>
+              <p class="warningTxt pwWarning">비밀번호를 입력해주세요</p>
+            </div>
+            <div class="inputTxtArea01">
+              <div class="inputTxtArea02 txtAdArea">
+                <span class="txtSpan3">이메일 주소</span>
+                <!-- <span class="txtSpan2">5~20자 영문, 숫자 입력</span> -->
+                <input
+                  type="text"
+                  autocomplete="off"
+                  autocorrect="off"
+                  autocapitalize="none"
+                  placeholder=""
+                  title="아이디 입력"
+                  class="idInput"
+                />
+              </div>
+            </div>
+            <div class="inputTxtArea01">
+              <div class="inputTxtArea02 txtNameArea">
+                <span class="txtSpan3">이름</span>
+                <!-- <span class="txtSpan2">5~20자 영문, 숫자 입력</span> -->
+                <input
+                  type="text"
+                  autocomplete="off"
+                  autocorrect="off"
+                  autocapitalize="none"
+                  placeholder=""
+                  title="아이디 입력"
+                  class="idInput"
+                />
+              </div>
+            </div>
+            <div class="inputTxtArea01">
+              <div class="inputTxtArea02">
+                <p class="optionalTxt">선택입력</p>
+                <div class="addArea">
+                  <div class="birthArea">
+                    <div class="birthArea02 txtBirthArea">
+                      <span class="birthSpan">출생년도</span>
+                      <input
+                        type="text"
+                        autocomplete="off"
+                        autocapitalize="none"
+                        placeholder=""
+                        value
+                        inputmode="numeric"
+                        title="출생년도 입력"
+                        class="birthInput"
+                      />
+                    </div>
+                  </div>
+                  <div class="sexArea">
+                    <!-- <label for="choosingSex" class="sexAreaLb">
+                      <input
+                        name="manOrWoman"
+                        type="checkbox"
+                        class="choosingSex"
+                        value="1"
+                      />
+                      <span class="choosingSpan">남</span>
+                    </label>
+                    <label for="choosingSex" class="sexAreaLb">
+                      <input
+                        name="manOrWoman"
+                        type="checkbox"
+                        class="choosingSex"
+                        value="2"
+                      />
+                      <span class="choosingSpan">여</span>
+                    </label> -->
+                    <label for="choosingSex" class="sexAreaLb">
+                      <input type="radio" id="choosingSex" name="ab" />
+                      <span class="choosingSpan">남</span>
+                    </label>
+                    <label for="choosingSex1" class="sexAreaLb">
+                      <input type="radio" id="choosingSex1" name="ab" />
+                      <span class="choosingSpan">여</span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="agreementArea01">
+              <button type="button" class="agreeAllBtn">
+                <input type="checkbox" readonly class="agreAllInput" />
+                <svg
+                  viewBox="0 0 48 48"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="agreeSvg agrAll"
+                >
+                  <path
+                    d="M24 0C10.745 0 0 10.745 0 24s10.745 24 24 24 24-10.745 24-24S37.255 0 24 0zm0 45.6C12.089 45.6 2.4 35.911 2.4 24S12.089 2.4 24 2.4 45.6 12.089 45.6 24 35.911 45.6 24 45.6z"
+                  ></path>
+                  <path
+                    d="M20.806 26.275l-5.22-5.342L12 24.595l8.808 9.005L36 18.062 32.417 14.4z"
+                  ></path>
+                </svg>
+                <span class="agreeSpan">선택 포함 전체 약관 동의</span>
+              </button>
+              <ul class="agreeUl">
+                <button type="button" class="agreeBtns">
+                  <input type="checkbox" readonly class="agreAllInput" />
+                  <svg
+                    viewBox="0 0 48 48"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="agreeSvg"
+                  >
+                    <path
+                      d="M24 0C10.745 0 0 10.745 0 24s10.745 24 24 24 24-10.745 24-24S37.255 0 24 0zm0 45.6C12.089 45.6 2.4 35.911 2.4 24S12.089 2.4 24 2.4 45.6 12.089 45.6 24 35.911 45.6 24 45.6z"
+                    ></path>
+                    <path
+                      d="M20.806 26.275l-5.22-5.342L12 24.595l8.808 9.005L36 18.062 32.417 14.4z"
+                    ></path>
+                  </svg>
+                  <span class="agreeSpan">이용 약관 동의(필수)</span>
+                  <a href="#" target="_blank" class="seeDetails">
+                    약관 보기
+                    <svg
+                      viewBox="0 0 30 48"
+                      width="10"
+                      height="10"
+                      fill="#808991"
+                      display="inline-block"
+                      class="detailSvg"
+                    >
+                      <path
+                        d="M.9 4.4L5.2 0l23.9 23.9L5.1 48 .8 43.7l20-20z"
+                      ></path>
+                    </svg>
+                  </a>
+                </button>
+                <button type="button" class="agreeBtns">
+                  <input type="checkbox" readonly class="agreAllInput" />
+                  <svg
+                    viewBox="0 0 48 48"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="agreeSvg"
+                  >
+                    <path
+                      d="M24 0C10.745 0 0 10.745 0 24s10.745 24 24 24 24-10.745 24-24S37.255 0 24 0zm0 45.6C12.089 45.6 2.4 35.911 2.4 24S12.089 2.4 24 2.4 45.6 12.089 45.6 24 35.911 45.6 24 45.6z"
+                    ></path>
+                    <path
+                      d="M20.806 26.275l-5.22-5.342L12 24.595l8.808 9.005L36 18.062 32.417 14.4z"
+                    ></path>
+                  </svg>
+                  <span class="agreeSpan"
+                    >이벤트,혜택 알림 수신 동의(선택)
+                  </span>
+                </button>
+                <button type="button" class="agreeBtns">
+                  <input type="checkbox" readonly class="agreAllInput" />
+                  <svg
+                    viewBox="0 0 48 48"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="agreeSvg"
+                  >
+                    <path
+                      d="M24 0C10.745 0 0 10.745 0 24s10.745 24 24 24 24-10.745 24-24S37.255 0 24 0zm0 45.6C12.089 45.6 2.4 35.911 2.4 24S12.089 2.4 24 2.4 45.6 12.089 45.6 24 35.911 45.6 24 45.6z"
+                    ></path>
+                    <path
+                      d="M20.806 26.275l-5.22-5.342L12 24.595l8.808 9.005L36 18.062 32.417 14.4z"
+                    ></path>
+                  </svg>
+                  <span class="agreeSpan">성별, 생년 정보 제공 동의(선택)</span>
+                  <a href="#" target="_blank" class="seeDetails">
+                    내용 학인
+                    <svg
+                      viewBox="0 0 30 48"
+                      width="10"
+                      height="10"
+                      fill="#808991"
+                      display="inline-block"
+                      class="detailSvg"
+                    >
+                      <path
+                        d="M.9 4.4L5.2 0l23.9 23.9L5.1 48 .8 43.7l20-20z"
+                      ></path>
+                    </svg>
+                  </a>
+                </button>
+                <button type="button" class="agreeBtns">
+                  <input type="checkbox" readonly class="agreAllInput" />
+                  <svg
+                    viewBox="0 0 48 48"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="agreeSvg"
+                  >
+                    <path
+                      d="M24 0C10.745 0 0 10.745 0 24s10.745 24 24 24 24-10.745 24-24S37.255 0 24 0zm0 45.6C12.089 45.6 2.4 35.911 2.4 24S12.089 2.4 24 2.4 45.6 12.089 45.6 24 35.911 45.6 24 45.6z"
+                    ></path>
+                    <path
+                      d="M20.806 26.275l-5.22-5.342L12 24.595l8.808 9.005L36 18.062 32.417 14.4z"
+                    ></path>
+                  </svg>
+                  <span class="agreeSpan"
+                    >개인 정보 수집 및 이용 동의(필수)</span
+                  >
+                  <a href="#" target="_blank" class="seeDetails">
+                    내용 학인
+                    <svg
+                      viewBox="0 0 30 48"
+                      width="10"
+                      height="10"
+                      fill="#808991"
+                      display="inline-block"
+                      class="detailSvg"
+                    >
+                      <path
+                        d="M.9 4.4L5.2 0l23.9 23.9L5.1 48 .8 43.7l20-20z"
+                      ></path>
+                    </svg>
+                  </a>
+                </button>
+              </ul>
+            </div>
+            <button size="50" type="submit" class="compBtn">
+              회원 가입 완료
+            </button>
+            <div class="policyDiv">
+              this site is protected by reCAPTCHA and
+              <br />
+              the google
+              <a href="#" class="policyA">Privacy Policy</a>
+              and
+              <a href="#" class="policyA">Terms of Service</a>
+              apply.
+            </div>
+          </form>
+        </section>
+      </div>
+    </div>
+    <!-- main Div End -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/account.js"></script>
+  </body>
+</html>
