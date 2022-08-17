@@ -7,7 +7,7 @@ html {
   padding: 0;
   color: black;
   font-family: -apple-system, BlinkMacSystemFont, Apple SD Gothic Neo,
-    Helvetica Neue, ridi-roboto, "Noto Sans KR", sans-serif;
+    Helvetica Neue, ridi-roboto, 'Noto Sans KR', sans-serif;
   font-weight: 400;
   letter-spacing: -0.03em;
   font-size: 14px;
@@ -93,7 +93,7 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-input[type="number"] {
+input[type='number'] {
   -moz-appearance: textfield;
 }
 
@@ -206,7 +206,7 @@ body,
 }
 
 .topLiList::after {
-  content: "";
+  content: '';
   display: inline-block;
   width: 3px;
   height: 3px;
@@ -850,7 +850,7 @@ body,
 }
 
 .lgBkImgB::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   inset: 0px;
@@ -858,7 +858,7 @@ body,
 }
 
 .lgBkImgB::after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   inset: 0px;
@@ -1265,7 +1265,7 @@ body,
 }
 
 .bigBookImgArea::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   inset: 0px;
@@ -1273,7 +1273,7 @@ body,
 }
 
 .bigBookImgArea::after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   inset: 0px;
@@ -1616,7 +1616,7 @@ body,
 }
 
 .footPolA::before {
-  content: "";
+  content: '';
   display: inline-block;
   background: #f0f0f0;
   width: 1px;
@@ -1646,7 +1646,7 @@ body,
 }
 
 .footPolB::before {
-  content: "";
+  content: '';
   display: inline-block;
   background: #f0f0f0;
   width: 1px;
@@ -2082,3 +2082,24 @@ body,
 }
 
 /* Slide Button End */
+
+/* goTop btn */
+.moveTopBtn {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  width: 4rem;
+  height: 4rem;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  outline: none;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+  text-align: center;
+  line-height: 3.8rem;
+  border-radius: 100%;
+}
+
+.moveTopSvg {
+  transform: rotate(270deg);
+}
